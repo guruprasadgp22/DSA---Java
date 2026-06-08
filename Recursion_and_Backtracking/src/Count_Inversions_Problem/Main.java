@@ -8,7 +8,6 @@ public class Main {
 		System.out.println("Brute Force approoach: " + m.countInversion(arr));
 		
 		System.out.println("Optimal approach: " + m.mergeSort(arr, 0, 4));
-	
 	}
 	
 	public int mergeSort(int[] arr, int start, int end) {
